@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.20.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "sbpubdef-sol",
+    "libraryId": "1e22dd56-7aea-42cf-b8f8-8fbb10354586",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sbpubdef-sol",
+    "solutionShortDescription": "sbpubdef-sol description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
