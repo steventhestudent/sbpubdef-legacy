@@ -2,43 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
     "name": "sbpubdef-sol-client-side-solution",
-    "id": "1e22dd56-7aea-42cf-b8f8-8fbb10354586",
-    "version": "1.0.0.0",
-    "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
-    "isDomainIsolated": false,
-    "developer": {
-      "name": "",
-      "websiteUrl": "",
-      "privacyUrl": "",
-      "termsOfUseUrl": "",
-      "mpnId": "Undefined-1.21.1"
-    },
-    "metadata": {
-      "shortDescription": {
-        "default": "sbpubdef-sol description"
-      },
-      "longDescription": {
-        "default": "sbpubdef-sol description"
-      },
-      "screenshotPaths": [],
-      "videoUrl": "",
-      "categories": []
-    },
-    "features": [
-      {
-        "title": "Application Extension - Deployment of custom action",
-        "description": "Deploys a custom action with ClientSideComponentId association",
-        "id": "c4a6c89c-89af-4a12-b41c-374ddc82ceaf",
-        "version": "1.0.0.0",
-        "assets": {
-          "elementManifests": [
-            "elements.xml",
-            "ClientSideInstance.xml"
-          ]
-        }
-      }
-    ]
+    "id": "bd23f62d-2b70-4d4b-84ae-bd650cec851d",
+    "version": "1.0.0.0"
   },
   "paths": {
     "zippedPackage": "solution/sbpubdef-sol.sppkg"

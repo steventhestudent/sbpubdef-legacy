@@ -1,29 +1,10 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
   "port": 4321,
   "https": true,
-  "serveConfigurations": {
-    "default": {
-      "pageUrl": "https://{tenantDomain}/SitePages/myPage.aspx",
-      "customActions": {
-        "fc2dba57-32b0-47fe-b6ef-09b074473606": {
-          "location": "ClientSideExtension.ApplicationCustomizer",
-          "properties": {
-            "testMessage": "Test message"
-          }
-        }
-      }
-    },
-    "landingRedirectExt": {
-      "pageUrl": "https://{tenantDomain}/SitePages/myPage.aspx",
-      "customActions": {
-        "fc2dba57-32b0-47fe-b6ef-09b074473606": {
-          "location": "ClientSideExtension.ApplicationCustomizer",
-          "properties": {
-            "testMessage": "Test message"
-          }
-        }
-      }
-    }
+  "initialPage": "https://localhost:5432/workbench",
+  "api": {
+    "port": 5432,
+    "entryPath": "node_modules/@microsoft/sp-webpart-workbench/lib/api/"
   }
 }

@@ -1,18 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
-  "version": "2.0",
-  "bundles": {
-    "landing-redirect-ext-application-customizer": {
-      "components": [
-        {
-          "entrypoint": "./lib/extensions/landingRedirectExt/LandingRedirectExtApplicationCustomizer.js",
-          "manifest": "./src/extensions/landingRedirectExt/LandingRedirectExtApplicationCustomizer.manifest.json"
-        }
-      ]
+  "entries": [
+    {
+      "entry": "./lib/webparts/landingRedirectWebpart/LandingRedirectWebpartWebPart.js",
+      "manifest": "./src/webparts/landingRedirectWebpart/LandingRedirectWebpartWebPart.manifest.json",
+      "outputPath": "./dist/landing-redirect-webpart-web-part.js"
     }
-  },
+  ],
   "externals": {},
   "localizedResources": {
-    "LandingRedirectExtApplicationCustomizerStrings": "lib/extensions/landingRedirectExt/loc/{locale}.js"
+    "LandingRedirectWebpartWebPartStrings": "webparts/landingRedirectWebpart/loc/{locale}.js"
   }
 }
