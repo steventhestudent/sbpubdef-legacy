@@ -20,9 +20,9 @@ now you can: ```gulp serve --nobrowser``` to develop
 
 ### config/write-manifests.json (NOTES)
 cdn values:
-- gulp: "cdnBasePath": "<!-- PATH TO CDN -->"
-- dev (onprem): "cdnBasePath": "http://win-gfmcj0b11it/sites/AppCatalog/ClientSideAssets1/sbpubdef-sol/1.0.0"
-- production: "cdnBasePath": "https://<tenant>.sharepoint.com/sites/AppCatalog/ClientSideAssets/sbpubdef-sol/1.0.0"
+- gulp: ```"cdnBasePath": "<!-- PATH TO CDN -->"```
+- dev (onprem): ```"cdnBasePath": "http://win-gfmcj0b11it/sites/AppCatalog/ClientSideAssets1/sbpubdef-sol/1.0.0"```
+- production: ```"cdnBasePath": "https://tenant.sharepoint.com/sites/AppCatalog/ClientSideAssets/sbpubdef-sol/1.0.0"```
 
 ClientSideAssets is a document library w/ folder sbpudef-sol w/ folder for each release (i.e.: folder 1.0.0 is all files in temp/deploy)
 
