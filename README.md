@@ -8,12 +8,12 @@ use nvm, since this uses very old node (v8)
 1. ```nvm use 8```
 1. ```npm install -g yo@2.0.6 gulp-cli@2.3.0 @microsoft/generator-sharepoint@1.5.1```
 1. scaffold project: ```yo @microsoft/sharepoint``` or ```pnpm exec yo @microsoft/sharepoint```
-   1. if pnpm: when that finishes run ```pnpm install```
 1. you only need to run this once: ```gulp trust-dev-cert```
 
 **Note:** you do not need to run step 3 (scaffold), since you will git clone this project instead of making it from scratch...
 
 ```git clone steventhestudent/sbpubdef-legacy.git```
+```cd sbpubdef-legacy && npm install```
 
 now you can: ```gulp serve --nobrowser``` to develop
 
