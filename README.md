@@ -10,7 +10,7 @@ use nvm, since this uses very old node (v8)
 4. you only need to run this once: ```gulp trust-dev-cert```
 
 **Note:** you do not need to run step 3 (scaffold), since you will git clone this project instead of making it from scratch...
-```git clone steventhestudent/sbpubdef-legacy.git```
+```git clone git@github.com:steventhestudent/sbpubdef-legacy.git```
 ```cd sbpubdef-legacy && npm install```
 
 now you can: ```gulp serve --nobrowser``` to develop
